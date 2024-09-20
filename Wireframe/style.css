@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 1em;
     box-sizing: border-box;
 }
 
@@ -12,11 +12,6 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 header {
     text-align: center;
@@ -34,34 +29,37 @@ header p {
 }
 
 .main-article .article {
-    margin-bottom: 40px;
-}
+    margin-bottom: 10px;
+    }
+  
+  .main-article  {
+  max-width: 110%;
+  justify-content: center;
 
-.article {
-    text-align: center;
-}
-
-.image-placeholder {
-    width: 100%;
+  }
+  .image-placeholder {
+    width: 90%; 
     height: 200px;
     background-color: #ccc;
-    margin-bottom: 20px;
-}
+    margin-bottom: 1px;
+  }
 
 .articles {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .article {
     background-color: #fff;
-    padding: 20px;
-    width: 100%;
+      
+    margin-inline: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
+   
 }
 .articles .article {
-    width: 48%;
+    width: 55%;
+    
 }
 
 button {
@@ -79,11 +77,11 @@ button:hover {
 footer {
     text-align: center;
     margin-top: 50px;
-    font-size: 0.9em;
+    font-size: 1em;
     background-color: #444;
     color: gray;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-}
+  }
