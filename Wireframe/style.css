@@ -42,6 +42,7 @@ header p {
     height: 200px;
     background-color: #ccc;
     margin-bottom: 1px;
+    justify-content: center;
   }
 
 .articles {
