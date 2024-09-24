@@ -44,7 +44,7 @@ header p {
 }
 .article:first-child {
     display: flex;
-    width: 90%;
+    width: 80%;
 }
 .article h2 {
 margin-top: 15px;
@@ -65,7 +65,8 @@ margin-left: 20px;
     border-radius: 8px;
     text-align: left;
     margin: 10px 1% 10px;
-    width: 44%;
+    width: 39%;
+    height: 30%;
     flex-wrap: nowrap;
 
 }
