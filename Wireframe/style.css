@@ -15,18 +15,17 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 40px;
 }
 
 header h1 {
     font-size: 2.5em;
-    margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2em;
     color: gray;
 }
+<<<<<<< Updated upstream
 .image-placeholder{
     margin: auto;
     margin-top: 20px;
@@ -56,11 +55,38 @@ margin-left: 20px;
     width: 50%;
     text-wrap: wrap;
     margin-left: 20px;
+=======
+
+.main-article .article {
+    margin-bottom: 10px;
+    }
+  
+.article:first-child
+  {
+  max-width: 210%;
+  justify-content: center;
+  }
+  .image-placeholder {
+    width: 90%; 
+    height: 200px;
+    background-color: #ccc;
+    margin-bottom: 1px;
+  }
+
+  .articles {
+    display: flex;
+    justify-content: center;
+   
+>>>>>>> Stashed changes
 }
 .article {
     flex-direction: column;
     display: flex;
     background-color: #fff;
+<<<<<<< Updated upstream
+=======
+     margin-inline: 10px;
+>>>>>>> Stashed changes
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: left;
