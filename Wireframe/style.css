@@ -44,7 +44,7 @@ header p {
 }
 .article:first-child {
     display: flex;
-    width: 90%;
+    width: 89%;
 }
 .article h2 {
 margin-top: 15px;
