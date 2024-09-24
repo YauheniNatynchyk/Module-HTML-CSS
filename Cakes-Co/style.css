@@ -150,10 +150,21 @@ article{
             grid-template-columns: repeat(4, 1fr);
             gap: 3px;
         }
-        .headericon {display: none;}
+        
         .icon-text-group {
             flex-direction: column;
-            justify-content: flex-end;
+            justify-content: space-between;
 
         }
+    }
+    @media screen and (min-width: 540px) {
+
+
+
+
+
+
+
+
+
     }
